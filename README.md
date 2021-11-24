@@ -9,7 +9,9 @@ Base de Registros de 2019 - Mortalidade geral
 Disponivel em: https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-mortalidade
 
 Importando microdados do SIM diretamente da URL;
+
 Filtrando e selecionando variáveis usando pacote dplyr
+
 Trabalhando com variável Idade 
 
 Idade: composto de dois subcampos. O primeiro, de 1 dígito, indica a unidade da idade, conforme a tabela a seguir. O segundo, de dois dígitos, indica a quantidade de unidades: 
@@ -21,4 +23,5 @@ Idade: composto de dois subcampos. O primeiro, de 1 dígito, indica a unidade da
 - 5 – Anos (mais de 100 anos), o segundo subcampo varia de 0 a 99. 
 
 Criando faixa etária
+
 Pirâmide etária usando pacote ggplot2
